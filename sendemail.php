@@ -25,7 +25,7 @@ $body = ' <html>
         </p>
       </div>
       
-      <p style="text-align: center"><a href="https://cl-quick.tech/index.html"> QuickTech | 2024 </a></p>
+      <p style="text-align: center"><a href="https://cl-quick.tech/index"> QuickTech | 2024 </a></p>
     </section>
 </body>
 </html>';
@@ -57,7 +57,7 @@ echo '
           <span style="font-weight:300;font-size:1em"> Gracias por comunicarte con nosotros, te responderemos a la brevedad posible.</span>
         </div>
         <br>
-        <p style="text-align: center;"><a href="https://cl-quick.tech/index.html"> Volver a QuickTech </a></p>
+        <p style="text-align: center;"><a href="https://cl-quick.tech/index"> Volver a QuickTech </a></p>
         
         </section>
     </body>
