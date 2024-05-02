@@ -39,6 +39,7 @@ $headers .= "FROM: $name <$email>\r\n";
 mail($addressee, $subject, $body, $headers);
 
 echo '
+<script>setTimeout(function(){ window.location = "index.html"; }, 4000);</script>
 <html>
     <head>
         <title> QuickTech | 2024 </title>
@@ -54,11 +55,9 @@ echo '
             <span class="material-symbols-outlined" style="font-size: 150px">mark_email_read</span>
         </div>
         <div style= "text-align: center">
-          <span style="font-weight:300;font-size:1em"> Gracias por comunicarte con nosotros, te responderemos a la brevedad posible.</span>
+          <span style="font-weight:300;font-size:1em"> Gracias por comunicarte con nosotros</span>
         </div>
-        <br>
-        <p style="text-align: center;"><a href="https://cl-quick.tech/index"> Volver a QuickTech </a></p>
-        
+        <br>  
         </section>
     </body>
 </html>'
